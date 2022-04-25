@@ -2,10 +2,11 @@ import { useState } from 'react';
 import {HiMenu,HiMenuAlt4} from 'react-icons/hi';
 import {AiOutlineClose} from 'react-icons/ai';
 
+
 import logo from '../../images/logo.png';
 const NavbarItem =({title, classProps}) => {
     return(
-        <li className={'mx-4 cursor-pointer ${classProps}'}>
+        <li className={"mx-4 cursor-pointer ${classProps}"}>
             {title}
             </li>
     );
